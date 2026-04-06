@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "portfolio": "Trabajos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Christian A. Vargas Valentín",
+    "tagline": "Cuento historias que conectan marcas con personas.",
+    "subtitle": "Estrategia de contenido · Edición de video · Community Management",
+    "cta": "Ver mi trabajo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": "Soy un Social Media Manager y creador de contenido basado en Puerto Rico, apasionado por ayudar a marcas locales a crecer de forma auténtica. Me especializo en construir narrativas que conectan con las personas — porque detrás de cada marca hay una historia que merece ser contada.",
+    "education": "B.A. en Comunicaciones, Universidad del Sagrado Corazón",
+    "certifications_title": "Certificaciones",
+    "certifications": [
+      "Marketing Digital — Universidad de Palermo",
+      "Social Media — Udemy",
+      "Competencias Digitales — RTVE"
+    ],
+    "awards_title": "Reconocimientos",
+    "awards": [
+      "Beca First Bank",
+      "Beca Church's Chicken",
+      "AbbVie Migraine Catalysm Award"
+    ],
+    "focus": "Actualmente enfocado en ayudar a marcas locales del área oeste de Puerto Rico a crecer orgánicamente a través de contenido estratégico y auténtico."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technical_title": "Herramientas técnicas",
+    "technical": [
+      "Meta Business Suite",
+      "Canva",
+      "CapCut",
+      "Adobe Premiere",
+      "Adobe InDesign",
+      "VN",
+      "Asana",
+      "Later",
+      "Notion",
+      "Google Business Profile"
+    ],
+    "professional_title": "Competencias profesionales",
+    "professional": [
+      "Estrategia de contenido digital",
+      "Brand storytelling",
+      "Copywriting persuasivo y emocional",
+      "Análisis de métricas y KPIs"
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "roles": [
+      {
+        "company": "Join A Join",
+        "role": "Social Media Manager",
+        "period": "Ago 2025 – Presente",
+        "location": "Remoto",
+        "description": "Producción de 10 reels mensuales, estrategia de crecimiento orgánico, copywriting persuasivo, campañas en Meta y TikTok, análisis de métricas."
+      },
+      {
+        "company": "United Way Puerto Rico",
+        "role": "Asistente de Marketing (Pasantía)",
+        "period": "Ago 2024 – Mar 2025",
+        "location": "",
+        "description": "Producción audiovisual, campañas institucionales, cobertura de eventos."
+      },
+      {
+        "company": "Universidad del Sagrado Corazón",
+        "role": "Tutor de Español y Negocios",
+        "period": "Ago 2023 – May 2024",
+        "location": "",
+        "description": "Asesoría estudiantil, validación de ideas de negocio, coordinación de 8–10 estudiantes diarios."
+      },
+      {
+        "company": "Semila LLC & Cacao360",
+        "role": "Social Media Manager & Creador de Contenido",
+        "period": "Feb – May 2023",
+        "location": "",
+        "description": "Calendarios de contenido, artes visuales, copywriting, cobertura de eventos (Coffee & Chocolate Expo San Juan)."
+      },
+      {
+        "company": "Paumar Consulting",
+        "role": "Ejecutivo de Cuentas (Pasantía)",
+        "period": "Ago – Sep 2022",
+        "location": "",
+        "description": "Calendarios de contenido, cotizaciones de proyectos, propuestas digitales."
+      },
+      {
+        "company": "Oficina Internacional, USC",
+        "role": "Social Media Manager & Administrativo",
+        "period": "Ago 2021 – May 2022",
+        "location": "",
+        "description": "Producción para Facebook e Instagram, diseño promocional, análisis de métricas."
+      },
+      {
+        "company": "Claro PRTC",
+        "role": "Asistente de Publicidad y Relaciones Corporativas",
+        "period": "Jun – Jul 2022",
+        "location": "",
+        "description": "Comunicaciones internas, notas de prensa, brainstorming, logística de eventos."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Trabajos",
+    "projects": [
+      {
+        "title": "Campaña de Marca",
+        "tags": ["Branding", "Estrategia"]
+      },
+      {
+        "title": "Serie de Reels",
+        "tags": ["Reel", "Contenido"]
+      },
+      {
+        "title": "Gestión de Comunidad",
+        "tags": ["Community Management"]
+      },
+      {
+        "title": "Cobertura de Evento",
+        "tags": ["Evento", "Audiovisual"]
+      },
+      {
+        "title": "Estrategia de Contenido",
+        "tags": ["Estrategia", "Copywriting"]
+      },
+      {
+        "title": "Campaña Digital",
+        "tags": ["Meta Ads", "Contenido"]
+      }
+    ],
+    "see_more": "Ver más",
+    "note": "Más trabajos disponibles bajo solicitud."
+  },
+  "contact": {
+    "title": "Contacto",
+    "cta": "¿Tienes una marca en el área oeste de Puerto Rico? Hablemos.",
+    "name_label": "Nombre",
+    "email_label": "Email",
+    "message_label": "Mensaje",
+    "send": "Enviar",
+    "name_placeholder": "Tu nombre",
+    "email_placeholder": "tu@email.com",
+    "message_placeholder": "Cuéntame sobre tu proyecto..."
+  },
+  "footer": {
+    "copyright": "© 2026 Christian A. Vargas Valentín"
+  }
+}

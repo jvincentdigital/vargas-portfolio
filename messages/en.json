@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Christian A. Vargas Valentín",
+    "tagline": "I tell stories that connect brands with people.",
+    "subtitle": "Content Strategy · Video Editing · Community Management",
+    "cta": "See my work"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "I'm a Social Media Manager and content creator based in Puerto Rico, passionate about helping local brands grow authentically. I specialize in building narratives that connect with people — because behind every brand, there's a story worth telling.",
+    "education": "B.A. in Communications, Universidad del Sagrado Corazón",
+    "certifications_title": "Certifications",
+    "certifications": [
+      "Digital Marketing — Universidad de Palermo",
+      "Social Media — Udemy",
+      "Digital Competencies — RTVE"
+    ],
+    "awards_title": "Awards",
+    "awards": [
+      "First Bank Scholarship",
+      "Church's Chicken Scholarship",
+      "AbbVie Migraine Catalysm Award"
+    ],
+    "focus": "Currently focused on helping local brands in western Puerto Rico grow organically through strategic and authentic content."
+  },
+  "skills": {
+    "title": "Skills",
+    "technical_title": "Technical tools",
+    "technical": [
+      "Meta Business Suite",
+      "Canva",
+      "CapCut",
+      "Adobe Premiere",
+      "Adobe InDesign",
+      "VN",
+      "Asana",
+      "Later",
+      "Notion",
+      "Google Business Profile"
+    ],
+    "professional_title": "Professional competencies",
+    "professional": [
+      "Digital content strategy",
+      "Brand storytelling",
+      "Persuasive & emotional copywriting",
+      "Metrics & KPI analysis"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "roles": [
+      {
+        "company": "Join A Join",
+        "role": "Social Media Manager",
+        "period": "Aug 2025 – Present",
+        "location": "Remote",
+        "description": "10 monthly reels production, organic growth strategy, persuasive copywriting, Meta & TikTok campaigns, metrics analysis."
+      },
+      {
+        "company": "United Way Puerto Rico",
+        "role": "Marketing Assistant Intern",
+        "period": "Aug 2024 – Mar 2025",
+        "location": "",
+        "description": "Audiovisual production, institutional campaigns, event coverage."
+      },
+      {
+        "company": "Universidad del Sagrado Corazón",
+        "role": "Spanish & Business Tutor",
+        "period": "Aug 2023 – May 2024",
+        "location": "",
+        "description": "Student advising, business idea validation, scheduling 8–10 students per day."
+      },
+      {
+        "company": "Semila LLC & Cacao360",
+        "role": "Social Media Manager & Content Creator",
+        "period": "Feb – May 2023",
+        "location": "",
+        "description": "Content calendars, visual arts, copywriting, event coverage (Coffee & Chocolate Expo San Juan)."
+      },
+      {
+        "company": "Paumar Consulting",
+        "role": "Account Executive Intern",
+        "period": "Aug – Sep 2022",
+        "location": "",
+        "description": "Content calendars, project quotes, digital proposals."
+      },
+      {
+        "company": "Oficina Internacional, USC",
+        "role": "Social Media Manager & Admin",
+        "period": "Aug 2021 – May 2022",
+        "location": "",
+        "description": "Facebook & Instagram production, promotional design, metrics analysis."
+      },
+      {
+        "company": "Claro PRTC",
+        "role": "Advertising & Corporate Relations Assistant",
+        "period": "Jun – Jul 2022",
+        "location": "",
+        "description": "Internal communications, press releases, brainstorming, event logistics."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "title": "Brand Campaign",
+        "tags": ["Branding", "Strategy"]
+      },
+      {
+        "title": "Reels Series",
+        "tags": ["Reel", "Content"]
+      },
+      {
+        "title": "Community Management",
+        "tags": ["Community Management"]
+      },
+      {
+        "title": "Event Coverage",
+        "tags": ["Event", "Audiovisual"]
+      },
+      {
+        "title": "Content Strategy",
+        "tags": ["Strategy", "Copywriting"]
+      },
+      {
+        "title": "Digital Campaign",
+        "tags": ["Meta Ads", "Content"]
+      }
+    ],
+    "see_more": "See more",
+    "note": "More work available on request."
+  },
+  "contact": {
+    "title": "Contact",
+    "cta": "Got a brand in western Puerto Rico? Let's talk.",
+    "name_label": "Name",
+    "email_label": "Email",
+    "message_label": "Message",
+    "send": "Send",
+    "name_placeholder": "Your name",
+    "email_placeholder": "you@email.com",
+    "message_placeholder": "Tell me about your project..."
+  },
+  "footer": {
+    "copyright": "© 2026 Christian A. Vargas Valentín"
+  }
+}

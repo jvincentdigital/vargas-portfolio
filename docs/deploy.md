@@ -1,6 +1,6 @@
 # Deploy
 
-The site deploys to Vercel. GitHub repo: `jcincnet11/vargas-portfolio`. Vercel project: `vargas-portfolio`.
+The site deploys to Vercel. GitHub repo: `jvincentdigital/vargas-portfolio`. Vercel project: `vargas-portfolio`.
 
 ## Normal flow
 

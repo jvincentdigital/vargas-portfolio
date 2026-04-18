@@ -15,8 +15,8 @@ const config: Config = {
         clay: "#A0785A",
       },
       fontFamily: {
-        display: ['"DM Serif Display"', "serif"],
-        body: ['"Plus Jakarta Sans"', "sans-serif"],
+        display: ["var(--font-display)", "serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
     },
   },

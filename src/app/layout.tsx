@@ -1,9 +1,15 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vargas-portfolio.vercel.app';
+
 export const metadata: Metadata = {
-  title: 'Christian A. Vargas Valentín — Social Media Manager & Content Creator',
-  description: 'Portfolio de Christian A. Vargas Valentín, Social Media Manager y creador de contenido en Puerto Rico.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'Christian A. Vargas Valentín',
+    template: '%s',
+  },
 };
 
 export default function RootLayout({

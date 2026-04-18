@@ -54,9 +54,9 @@ export default function Experience() {
                   </div>
                   <p className="text-espresso/70 font-medium mb-1">
                     {role.role}
-                    {role.location && <span className="text-espresso/40"> · {role.location}</span>}
+                    {role.location && <span className="text-espresso/60"> · {role.location}</span>}
                   </p>
-                  <p className="text-espresso/60 text-sm leading-relaxed mt-3">
+                  <p className="text-espresso/70 text-sm leading-relaxed mt-3">
                     {role.description}
                   </p>
                 </div>

@@ -33,7 +33,10 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-cream/90 backdrop-blur-md border-b border-sand/30"
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-display text-xl text-espresso hover:text-terracotta transition-colors">
+        <a
+          href="#"
+          className="font-display text-xl text-espresso hover:text-terracotta rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors"
+        >
           C.V.V.
         </a>
 
@@ -43,7 +46,7 @@ export default function Navbar() {
             <a
               key={link.key}
               href={link.href}
-              className="text-sm font-medium text-espresso/70 hover:text-terracotta transition-colors"
+              className="text-sm font-medium text-espresso/70 hover:text-terracotta rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors"
             >
               {t(link.key)}
             </a>
@@ -53,20 +56,22 @@ export default function Navbar() {
           <div className="flex items-center gap-1 ml-4 bg-sand/20 rounded-full px-1 py-1">
             <button
               onClick={() => switchLocale('es')}
-              className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
+              aria-pressed={locale === 'es'}
+              className={`px-3 py-1 rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-terracotta/80 transition-all ${
                 locale === 'es'
                   ? 'bg-terracotta text-cream'
-                  : 'text-espresso/60 hover:text-espresso'
+                  : 'text-espresso/70 hover:text-espresso'
               }`}
             >
               ES
             </button>
             <button
               onClick={() => switchLocale('en')}
-              className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
+              aria-pressed={locale === 'en'}
+              className={`px-3 py-1 rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-terracotta/80 transition-all ${
                 locale === 'en'
                   ? 'bg-terracotta text-cream'
-                  : 'text-espresso/60 hover:text-espresso'
+                  : 'text-espresso/70 hover:text-espresso'
               }`}
             >
               EN
@@ -77,8 +82,9 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden flex flex-col gap-1.5 p-2"
-          aria-label="Toggle menu"
+          className="md:hidden flex flex-col gap-1.5 p-2 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
+          aria-label={t('toggle_menu')}
+          aria-expanded={mobileOpen}
         >
           <span className={`block w-6 h-0.5 bg-espresso transition-transform ${mobileOpen ? 'rotate-45 translate-y-2' : ''}`} />
           <span className={`block w-6 h-0.5 bg-espresso transition-opacity ${mobileOpen ? 'opacity-0' : ''}`} />
@@ -101,7 +107,7 @@ export default function Navbar() {
                   key={link.key}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="text-base font-medium text-espresso/70 hover:text-terracotta transition-colors"
+                  className="text-base font-medium text-espresso/70 hover:text-terracotta rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors"
                 >
                   {t(link.key)}
                 </a>
@@ -109,20 +115,22 @@ export default function Navbar() {
               <div className="flex items-center gap-2 pt-2">
                 <button
                   onClick={() => switchLocale('es')}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
+                  aria-pressed={locale === 'es'}
+                  className={`px-3 py-1 rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/80 transition-all ${
                     locale === 'es'
                       ? 'bg-terracotta text-cream'
-                      : 'text-espresso/60 hover:text-espresso bg-sand/20'
+                      : 'text-espresso/70 hover:text-espresso bg-sand/20'
                   }`}
                 >
                   ES
                 </button>
                 <button
                   onClick={() => switchLocale('en')}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
+                  aria-pressed={locale === 'en'}
+                  className={`px-3 py-1 rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/80 transition-all ${
                     locale === 'en'
                       ? 'bg-terracotta text-cream'
-                      : 'text-espresso/60 hover:text-espresso bg-sand/20'
+                      : 'text-espresso/70 hover:text-espresso bg-sand/20'
                   }`}
                 >
                   EN

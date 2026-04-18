@@ -15,7 +15,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-terracotta font-medium text-sm tracking-widest uppercase mb-6"
         >
-          Social Media Manager & Content Creator
+          {t('eyebrow')}
         </motion.p>
 
         <motion.h1
@@ -40,7 +40,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.9 }}
-          className="text-espresso/60 text-base md:text-lg mb-10 tracking-wide"
+          className="text-espresso/70 text-base md:text-lg mb-10 tracking-wide"
         >
           {t('subtitle')}
         </motion.p>
@@ -52,7 +52,7 @@ export default function Hero() {
         >
           <a
             href="#portfolio"
-            className="inline-block bg-terracotta text-cream px-8 py-4 rounded-full font-medium text-base hover:bg-espresso transition-colors duration-300"
+            className="inline-block bg-terracotta text-cream px-8 py-4 rounded-full font-medium text-base hover:bg-espresso focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-espresso focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors duration-300"
           >
             {t('cta')}
           </a>

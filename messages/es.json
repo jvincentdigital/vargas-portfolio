@@ -4,10 +4,12 @@
     "skills": "Habilidades",
     "experience": "Experiencia",
     "portfolio": "Trabajos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "toggle_menu": "Abrir menú"
   },
   "hero": {
     "name": "Christian A. Vargas Valentín",
+    "eyebrow": "Social Media Manager & Creador de Contenido",
     "tagline": "Cuento historias que conectan marcas con personas.",
     "subtitle": "Estrategia de contenido · Edición de video · Community Management",
     "cta": "Ver mi trabajo"
@@ -109,34 +111,54 @@
   },
   "portfolio": {
     "title": "Trabajos",
-    "projects": [
-      {
-        "title": "Campaña de Marca",
-        "tags": ["Branding", "Estrategia"]
+    "view_case_study": "Ver caso de estudio",
+    "close": "Cerrar",
+    "role_label": "Rol",
+    "period_label": "Período",
+    "metrics_label": "Resultados",
+    "external_links_label": "Enlaces",
+    "note": "Más trabajos disponibles bajo solicitud.",
+    "tag_labels": {
+      "reels": "Reels",
+      "strategy": "Estrategia",
+      "meta_ads": "Meta Ads",
+      "tiktok": "TikTok",
+      "copywriting": "Copywriting",
+      "audiovisual": "Audiovisual",
+      "branding": "Branding",
+      "event_coverage": "Cobertura de evento",
+      "campaign": "Campaña"
+    },
+    "metric_labels": {
+      "reels_per_month": "Reels/mes",
+      "organic_growth": "Crecimiento orgánico",
+      "campaigns_run": "Campañas",
+      "events_covered": "Eventos",
+      "posts_designed": "Publicaciones"
+    },
+    "projects": {
+      "join-a-join": {
+        "title": "Reels, estrategia y pauta",
+        "role": "Social Media Manager",
+        "period": "Ago 2025 – Presente",
+        "summary": "Diez reels mensuales, estrategia de crecimiento orgánico, copywriting persuasivo y campañas pagadas en Meta y TikTok con análisis continuo de métricas.",
+        "description": "[PENDING_DESCRIPTION] Expandir sobre el trabajo con Join A Join: pilares de contenido, dirección creativa, objetivos de campaña y resultados medibles."
       },
-      {
-        "title": "Serie de Reels",
-        "tags": ["Reel", "Contenido"]
+      "united-way-pr": {
+        "title": "Audiovisual y campañas institucionales",
+        "role": "Asistente de Marketing (Pasantía)",
+        "period": "Ago 2024 – Mar 2025",
+        "summary": "Producción audiovisual, campañas institucionales y cobertura de eventos para una de las organizaciones sin fines de lucro más importantes de Puerto Rico.",
+        "description": "[PENDING_DESCRIPTION] Detallar el trabajo con United Way PR: campañas lideradas, piezas audiovisuales producidas, eventos cubiertos y colaboración con el equipo."
       },
-      {
-        "title": "Gestión de Comunidad",
-        "tags": ["Community Management"]
-      },
-      {
-        "title": "Cobertura de Evento",
-        "tags": ["Evento", "Audiovisual"]
-      },
-      {
-        "title": "Estrategia de Contenido",
-        "tags": ["Estrategia", "Copywriting"]
-      },
-      {
-        "title": "Campaña Digital",
-        "tags": ["Meta Ads", "Contenido"]
+      "semila-cacao360": {
+        "title": "Calendarios de contenido y cobertura de eventos",
+        "role": "Social Media Manager & Creador de Contenido",
+        "period": "Feb – May 2023",
+        "summary": "Calendarios de contenido, artes visuales, copywriting y cobertura en sitio del Coffee & Chocolate Expo San Juan.",
+        "description": "[PENDING_DESCRIPTION] Expandir sobre el trabajo con Semila / Cacao360: voz de marca, pilares de contenido y momentos clave de la cobertura del Coffee & Chocolate Expo."
       }
-    ],
-    "see_more": "Ver más",
-    "note": "Más trabajos disponibles bajo solicitud."
+    }
   },
   "contact": {
     "title": "Contacto",
@@ -145,11 +167,29 @@
     "email_label": "Email",
     "message_label": "Mensaje",
     "send": "Enviar",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Te responderé pronto.",
+    "error_invalid": "Revisa los campos e intenta de nuevo.",
+    "error_generic": "Hubo un error. Intenta de nuevo o escríbeme directamente.",
     "name_placeholder": "Tu nombre",
     "email_placeholder": "tu@email.com",
     "message_placeholder": "Cuéntame sobre tu proyecto..."
   },
   "footer": {
-    "copyright": "© 2026 Christian A. Vargas Valentín"
+    "copyright": "© 2026 Christian A. Vargas Valentín",
+    "email_aria": "Enviar correo",
+    "linkedin_aria": "Perfil de LinkedIn"
+  },
+  "a11y": {
+    "skip_to_main": "Saltar al contenido principal"
+  },
+  "not_found": {
+    "title": "Página no encontrada",
+    "message": "La página que buscas no existe o fue movida.",
+    "home": "Volver al inicio"
+  },
+  "seo": {
+    "title": "Christian A. Vargas Valentín — Social Media Manager y Creador de Contenido",
+    "description": "Portafolio de Christian A. Vargas Valentín, Social Media Manager y creador de contenido en Puerto Rico."
   }
 }

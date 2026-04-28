@@ -8,7 +8,7 @@ Mark `[~]` when starting, `[x]` when done. Start from the top unless told otherw
 
 ## Production readiness
 
-- [~] **Replace `mailto:` contact form with a real backend.** Code done: `src/app/api/contact/route.ts` sends via Resend with honeypot + length/email validation; `Contact.tsx` rewritten to POST JSON, track `sending/success/error` state, and surface feedback via `aria-live`. Still blocked on config: set `RESEND_API_KEY` + `RESEND_FROM` in Vercel (see `.env.local.example` and `docs/deploy.md`). Until then the endpoint returns `500 misconfigured` and the user sees the generic error.
+- [~] **Replace `mailto:` contact form with a real backend.** Code done: `src/app/api/contact/route.ts` sends via Resend with honeypot + length/email validation; `Contact.tsx` POSTs JSON and surfaces feedback via `aria-live`. Vercel env wired: `RESEND_API_KEY` (scoped Resend key, `sending_access` only, locked to domain `send.jvdigital.dev`) and `RESEND_FROM="Portfolio <contact@send.jvdigital.dev>"` set in Production. `NEXT_PUBLIC_SITE_URL` set too. Goes fully live after `git push`. Known gap: Vercel CLI has a bug adding env vars to "All Preview branches" — Preview env must be set via Dashboard (Project → Settings → Environment Variables, copy the 3 Production values into Preview).
 
 - [x] **Add per-page SEO metadata.** Done: `generateMetadata` in `src/app/[locale]/layout.tsx` reads a new `seo` namespace from messages and emits `openGraph`, `twitter`, `alternates.canonical`, and `alternates.languages` per locale. Root layout now just sets `metadataBase` from `NEXT_PUBLIC_SITE_URL` (placeholder `https://vargas-portfolio.vercel.app` until a custom domain is wired).
 

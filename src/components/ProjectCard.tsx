@@ -40,7 +40,7 @@ export default function ProjectCard({ project, index, onOpen }: Props) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       whileHover={{ y: -5 }}
       aria-label={`${project.client} — ${title}`}
-      className="group text-left w-full bg-cream rounded-2xl overflow-hidden border border-sand/20 hover:border-terracotta/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors cursor-pointer"
+      className="group flex flex-col text-left w-full p-0 bg-cream rounded-2xl overflow-hidden border border-sand/20 hover:border-terracotta/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-terracotta/60 focus-visible:ring-offset-2 focus-visible:ring-offset-cream transition-colors cursor-pointer"
     >
       <div
         className={`relative h-48 bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}
@@ -60,7 +60,7 @@ export default function ProjectCard({ project, index, onOpen }: Props) {
         )}
       </div>
 
-      <div className="p-6">
+      <div className="flex flex-col flex-1 p-6">
         <p className="text-xs uppercase tracking-wider text-terracotta font-medium mb-1">
           {project.client}
         </p>
@@ -80,15 +80,17 @@ export default function ProjectCard({ project, index, onOpen }: Props) {
         {topMetrics.length > 0 && (
           <div className="flex gap-6 mb-4">
             {topMetrics.map((m) => (
-              <div key={m.labelKey}>
-                <p className="font-display text-xl text-espresso leading-none">{m.value}</p>
+              <div key={m.labelKey} className="min-w-0">
+                <p className="font-display text-xl text-espresso leading-none truncate">
+                  {m.value}
+                </p>
                 <p className="text-xs text-espresso/70 mt-1">{tMetrics(m.labelKey)}</p>
               </div>
             ))}
           </div>
         )}
 
-        <span className="text-sm text-terracotta font-medium group-hover:underline">
+        <span className="mt-auto text-sm text-terracotta font-medium group-hover:underline">
           {tPortfolio('view_case_study')} →
         </span>
       </div>

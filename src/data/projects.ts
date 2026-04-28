@@ -106,8 +106,8 @@ export const projects: Project[] = [
     client: 'Semila LLC & Cacao360',
     tags: ['strategy', 'copywriting', 'event_coverage', 'branding'],
     metrics: [
-      // Real: from experience.json "Coffee & Chocolate Expo San Juan"
-      { labelKey: 'events_covered', value: 'Coffee & Chocolate Expo 2023' },
+      // The Coffee & Chocolate Expo 2023 coverage is called out in the
+      // summary/description — keeping metric values short numbers only.
       { labelKey: 'posts_designed', value: '[PENDING_METRIC]' },
     ],
     thumbnail: '/portfolio/semila-cacao360/thumbnail.jpg', // [PENDING_ASSET]
